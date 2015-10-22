@@ -4,7 +4,7 @@ describe('pigLatin', function() {
     expect(pigLatin("apple")).to.equal("appleay");
   });
 
-  it("does not add ay to the word if it starts with a vowel"), function() {
+  it("does not add ay to the word if it starts with a consonant"), function() {
     expect(pigLatin("work")).to.equal("work");
   }
 });
